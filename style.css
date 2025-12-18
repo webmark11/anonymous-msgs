@@ -1,0 +1,58 @@
+body{
+    background-image: url("colorful-background-with-multicolored-hair-dye_125964-1622.avif") ;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+
+}
+.box{
+    width: 100%;
+    max-width: 300px;
+    padding: 2rem;
+    box-shadow: 0 20px 40px #22d3ee(255, 255, 255, 0.2);
+    border-radius: 16px;
+    background-color: #fff;
+    animation: fadein 0.8s ease;
+}
+@keyframes fadein{
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    TO{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.messagebar{
+    width: 250px;
+    height: 100px;
+    padding: 0 16px;
+    border-radius: 999px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+.messagebar:focus{
+    box-shadow: 0 0 8px #22d3ee;
+    outline: none;
+}
+button{
+    height: 100px;
+    width: 200px;
+    border-radius: 999px;
+    background:Linear linear-gradient(135deg,#667eea,#764ba2) ;
+    cursor: pointer;
+    font-size: 18px;
+}
+button:active{
+    background-color: #22d3ee;
+}
+button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 10PX 20px rgba(0,0,0,0.2) ;
+}
+.footer{
+    padding-top: 255px;;
+}
